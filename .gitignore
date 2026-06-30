@@ -1,0 +1,24 @@
+# Ignorar pesos pesados (GitHub não aceita arquivos > 100MB)
+*.pth
+*.pt
+*.ckpt
+checkpoint_latest.pth
+
+# Pastas de datasets (Se baixou o CIFAR localmente)
+data/
+dataset/
+
+# Arquivos de sistema e Jupyter
+.ipynb_checkpoints/
+__pycache__/
+.vscode/
+
+# Se for usar virtual environment
+venv/
+.env/
+
+# Ignorar arquivos pesados do dataset
+cifar-100-python/
+teste/*.tar.gz
+*.tar.gz
+
